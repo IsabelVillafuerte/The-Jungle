@@ -16,6 +16,8 @@ var app = express();
 
 // Connect to database
 mongoose.connect('mongodb://localhost/products');
+//mongoose.connect(process.env.MONGODB_URI);
+
 
 var db = mongoose.connection;
 
