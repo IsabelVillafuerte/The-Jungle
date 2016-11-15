@@ -5,23 +5,10 @@
  </div>
 </div>
 
-
-<!--<div class="row">
- <div class="col-md-12">
-   <form action="/products" method="POST">
-     <label for="name">Name</label>
-     <input id="name" name="name" type="text">
-     <br>
-     <label for="photo">Photo</label>
-     <input id="photo" name="photo" type="text">
-     <br>
-     <label for="stock">Stock</label>
-     <input id="stock" name="stock" type="text">
-     <br>
-     <button type="submit" class="btn btn-primary">Submit</button>
-   </form>
- </div>
-</div> -->
+<form class="bg-success">
+<div>
+  <a class="btn btn-info" href="/products/new" role="button">Add New Product</a>
+</div>
 
 <div class="row">
   {{#each products}}
@@ -31,4 +18,5 @@
    <p class="text-center">Stock: {{this.stock}}</p>
  </div>
  {{/each}}
-</div>
+ </div>
+</form>
