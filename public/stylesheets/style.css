@@ -1,4 +1,8 @@
 .row img{
-  //max-width: 400px;
+  padding-left: 4%;
+  padding-right: 4%;
+  max-width: 360px;
+  min-width: 360px;
   max-height: 200px;
+  min-height: 200px;
 }
